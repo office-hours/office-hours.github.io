@@ -1,16 +1,16 @@
-##Description
+## Description
 
 This is a scheduling system for instructors & students, intended to support scheduling of instructor-studentconsult/counseling sessions.
 The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block,
  limit the number of blocks that may be reserved by a single student, etc.
 
-##Intended users
+## Intended users
 
 * This is intended for Instructors who want to minimize the need for them to manage their office hours schedule directly. 
 * Instructors who want to ensure that all students have an opportunity to schedule appointments during office hours.
 * Students who want to make sure that get the consult time needed (or as much of it as possible) withan instructor.
 
-##Client-side functionality
+## Client-side functionality
 
 Android app will display an agenda/day-planner-like view of one of more instructors’ schedules, a single dayat a time.
 
@@ -22,13 +22,13 @@ An instructor will be able to view the scheduled appointments, override appointm
 
 Instructors will also be able to mark an appointment as “kept”, “late”, or “missed”.
 
-##Server/cloud-side functionality
+## Server/cloud-side functionality
 
 Server will maintain a registry of instructors, students, past and future scheduled appointments, resolutions(kept/late/missed), and policies.
 Authentication information will be passed from the client app to the server,
 to enforce privacy controls.
 
-##External services/data
+## External services/data
 
 * Google Sign In for OAuth 2.0.
 * Google Calendar export.

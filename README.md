@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+##Description
 
-You can use the [editor on GitHub](https://github.com/office-hours/office-hours.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a scheduling system for instructors & students, intended to support scheduling of instructor-studentconsult/counseling sessions.
+The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block,
+ limit the number of blocks that may be reserved by a single student, etc.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##Intended users
 
-### Markdown
+* This is intended for Instructors who want to minimize the need for them to manage their office hours schedule directly. 
+* Instructors who want to ensure that all students have an opportunity to schedule appointments during office hours.
+* Students who want to make sure that get the consult time needed (or as much of it as possible) withan instructor.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Client-side functionality
 
-```markdown
-Syntax highlighted code block
+Android app will display an agenda/day-planner-like view of one of more instructors’ schedules, a single dayat a time.
 
-# Header 1
-## Header 2
-### Header 3
+A student user will be able to click on an unassigned/available time block to schedule an appointment, up to the maximum amount of time permitted, and up to the 
+cumulative maximum allowed per day (according topolicies set by instructors).
 
-- Bulleted
-- List
+An instructor will be able to view the scheduled appointments, override appointments, set unavailableblocks of time, and set policies at the global, day,
+ or half-day level. Initially supported policies will include maximum appointment length and maximum total time per student per day or half-day.
 
-1. Numbered
-2. List
+Instructors will also be able to mark an appointment as “kept”, “late”, or “missed”.
 
-**Bold** and _Italic_ and `Code` text
+##Server/cloud-side functionality
 
-[Link](url) and ![Image](src)
-```
+Server will maintain a registry of instructors, students, past and future scheduled appointments, resolutions(kept/late/missed), and policies.
+Authentication information will be passed from the client app to the server,
+to enforce privacy controls.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##External services/data
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/office-hours/office-hours.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Google Sign In for OAuth 2.0.
+* Google Calendar export.

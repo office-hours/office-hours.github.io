@@ -32,3 +32,7 @@ to enforce privacy controls.
 
 * Google Sign In for OAuth 2.0.
 * Google Calendar export.
+
+# Ground rules documentation
+
+[Ground-rules](ground-rules.md)

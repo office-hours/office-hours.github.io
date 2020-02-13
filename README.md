@@ -35,4 +35,4 @@ to enforce privacy controls.
 
 # Ground rules documentation
 
-[Ground-rules](ground-rules.md)
+[ground-rules](ground-rules.md)

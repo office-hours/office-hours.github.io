@@ -24,7 +24,9 @@
 ## Roles (Preferred)
 
 Raymond: User-interface.
+
 Alexx: Database.
+
 Jose: TBD.
 
 ## Trivial task assignment

@@ -1,3 +1,3 @@
 # Entity-Relationship Diagram
 
-[![ERD](erd.png)](erd.pdf)
+[![ERD](office-hours-erd.png)](office-hours-erd.pdf)

@@ -22,7 +22,7 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 
     * Site URL:<https://developers.google.com/identity/protocols/OAuth2>
     * Service use: OAuth will be used to authenticate users and pass info like name and email for use in Office Hours.
-    * Required: Yes, for authentication users into Office Hours and for needed student information.
+    * Required: Yes, for authenticating users into Office Hours and for needed student information.
 
 * Google Calendar export.
 
@@ -32,4 +32,4 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 
 # Ground rules documentation
 
-###[Ground rules](ground-rules.md)
+### [Ground rules](ground-rules.md)

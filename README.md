@@ -21,13 +21,13 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 * Google Sign In for OAuth 2.0.
 
     * Site URL:<https://developers.google.com/identity/protocols/OAuth2>
-    * Service use: OAuth will be used to authenticate users and pass info like name and email for use in Office hours.
-    * Required: Yes, for authentication users into Office hours and for needed student information.
+    * Service use: OAuth will be used to authenticate users and pass info like name and email for use in Office Hours.
+    * Required: Yes, for authentication users into Office Hours and for needed student information.
 
 * Google Calendar export.
 
     * Site URL:<https://developers.google.com/calendar>
-    * Service use: This will allow users to take appointment made in office hours and export them into Google calendar for convenience.
+    * Service use: This will allow users to take appointment made in Office Hours and export them into Google calendar for convenience.
     * Required: No, users don't have to use google export to use Office Hours.
 
 # Ground rules documentation

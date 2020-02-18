@@ -50,6 +50,6 @@ to enforce privacy controls.
 
 # Ground rules documentation
 
-###[Ground rules](ground-rules.md)
+### [Ground rules](ground-rules.md)
 
 

@@ -34,5 +34,12 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 
 ### [Ground rules](ground-rules.md)
 
-# Project 
-# [Server](https://github.com/office-hours/server)
+# Entity classes
+
+### [Appointment.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Appointment.java)
+
+### [Student.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Student.java)
+
+### [Teacher.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Teacher.java)
+
+### [User.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/User.java)

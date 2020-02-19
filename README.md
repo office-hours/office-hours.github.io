@@ -1,6 +1,6 @@
 ## Description
 
-This is a scheduling system for instructors & students, intended to support scheduling of instructor-student consult/counseling sessions.
+This is a scheduling system for instructors and students, intended to support scheduling of instructor-student consult/counseling sessions.
 The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block,
  limit the number of blocks that may be reserved by a single student, etc.
 

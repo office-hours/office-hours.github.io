@@ -43,3 +43,9 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 ### [Teacher.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Teacher.java)
 
 ### [User.java](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/User.java)
+
+## Team Roster
+
+* Raymond Jaramillo
+* Alex Reyes
+* Jose Ortiz

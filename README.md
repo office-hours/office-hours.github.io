@@ -2,19 +2,19 @@
 
 ### Jose Ortiz
 
-[![GitHub](github.png)](https://github.com/)  [![LinkedIn](linkedin.png)](https:/linkedin.com/in/)
+[![GitHub](github.png)](https://jortiz07.github.io/)  [![LinkedIn](linkedin.png)](https://www.linkedin.com/in/jose-ortiz-/)
 
 ---
 
 ### Alex Reyes
 
-[![GitHub](github.png)](https://vexurion.github.io/)  [![LinkedIn](linkedin.png)](https://www.linkedin.com/in/)
+[![GitHub](github.png)](https://vexurion.github.io/)  [![LinkedIn](linkedin.png)](https://www.linkedin.com/in/alexx-reyes/)
 
 ---
 
 ### Raymond Jaramillo
 
-[![GitHub](github.png)](https://github.com//)  [![LinkedIn](linkedin.png)](https://www.linkedin.com/in/)
+[![GitHub](github.png)](https://raymondjaramillo.github.io/)  [![LinkedIn](linkedin.png)](https://www.linkedin.com/in/raymondjaramillo/)
 
 ---
 

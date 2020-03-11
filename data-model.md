@@ -7,7 +7,8 @@
 * [Teacher](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Teacher.java)
 
 * [User](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/User.java)
-* []()
+
+---
 
 #### Controller Classes
 
@@ -16,6 +17,7 @@
 * [StudentController](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/controller/rest/StudentController.java)
 * [TeacherController](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/controller/rest/TeacherController.java)
 * [UserController](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/controller/rest/UserController.java)
+
 ---
 
 #### Repository Classes
@@ -25,6 +27,7 @@
 * [StudentRepository](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/service/StudentRepository.java)
 * [TeacherRepository](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/service/TeacherRepository.java)
 * [UserRepository](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/service/UserRepository.java)
+
 ---
 
 #### Flat Interfaces
@@ -32,6 +35,8 @@
 * [FlatAppointment](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatAppointment.java)
 * [FlatStudent](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatStudent.java)
 * [FlatTeacher](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatTeacher.java)
+
+---
 
 #### Application class
 

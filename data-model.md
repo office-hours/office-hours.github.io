@@ -1,11 +1,8 @@
 #### Entity classes
 
 * [Appointment](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Appointment.java)
-
 * [Student](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Student.java)
-
 * [Teacher](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Teacher.java)
-
 * [User](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/User.java)
 
 ---

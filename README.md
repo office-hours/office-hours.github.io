@@ -38,6 +38,8 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 
 ### [Entity-relationship diagram](erd.md)
 
+### [Data Definition Language](ddl.md)
+
 ## External services/data
 
 * Google Sign In for OAuth 2.0.

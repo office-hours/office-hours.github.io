@@ -4,6 +4,7 @@
 * [Student](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Student.java)
 * [Teacher](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Teacher.java)
 * [User](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/User.java)
+* [Policy](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/model/entity/Policy.java)
 
 ---
 
@@ -32,6 +33,7 @@
 * [FlatAppointment](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatAppointment.java)
 * [FlatStudent](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatStudent.java)
 * [FlatTeacher](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatTeacher.java)
+* [FlatPolicy](https://github.com/office-hours/server/blob/master/src/main/java/edu/cnm/deepdive/officehours/view/FlatPolicy.java)
 
 ---
 

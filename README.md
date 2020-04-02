@@ -101,6 +101,10 @@ There are two different side the UI in Office Hours. One is from the perspective
     * Service use: This will allow users to take appointment made in Office Hours and export them into Google calendar for convenience.
     * Required: No, users don't have to use google export to use Office Hours.
 
-# [Ground rules documentation](ground-rules.md)
+## [Ground rules documentation](ground-rules.md)
 
-# [Data Model Implementation](data-model.md)
+## [Data Model Implementation](data-model.md)
+
+## Licensing 
+
+### [License](notice.md)

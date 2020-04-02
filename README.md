@@ -55,7 +55,7 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
 
 ## Build instructions
 
-* Go to the [GitHub repository](https://github.com/the-trail-blazer/trailblazer-client)
+* Go to the [GitHub repository](https://github.com/office-hours)
 
 * Click on Clone or download
 

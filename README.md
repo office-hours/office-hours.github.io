@@ -40,6 +40,11 @@ The requirements for this type of scheduling tend to go beyond those for basic s
 
 ### [Data Definition Language](ddl.md)
 
+
+## Technical Documentation
+
+### [Technical stacks outline](technical-stacks-outline.md)
+
 ## External services/data
 
 * Google Sign In for OAuth 2.0.
@@ -54,6 +59,9 @@ The requirements for this type of scheduling tend to go beyond those for basic s
     * Service use: This will allow users to take appointment made in Office Hours and export them into Google calendar for convenience.
     * Required: No, users don't have to use google export to use Office Hours.
 
-# [Ground rules documentation](ground-rules.md)
+### [Ground rules documentation](ground-rules.md)
 
-# [Data Model Implementation](data-model.md)
+### [Data Model Implementation](data-model.md)
+
+
+

@@ -34,9 +34,9 @@
 
 # Front end
 
-### Android OS [Android API reference](https://developer.android.com/reference)
+#### Android OS [Android API reference](https://developer.android.com/reference)
 
-### Data model
+#### Data model
 
 * SQLite [SQLiteDatabase](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase)
 * Room ORM [Room Persistance Library](https://developer.android.com/topic/libraries/architecture/room)
@@ -44,28 +44,28 @@
 * Custom type converters
 * Data access object (DAO) interfaces
 	  
-### Remote service interfaces
+#### Remote service interfaces
 
 * Retrofit [Retrofit Javadocs](https://javadoc.io/doc/com.squareup.retrofit2/retrofit/2.6.2/index.html)
 * ReactiveX [ReactiveX Android Javadocs](https://javadoc.io/doc/io.reactivex.rxjava2/rxandroid/latest/index.html),[ReactiveX Java Javadocs](https://javadoc.io/doc/io.reactivex.rxjava2/rxjava/2.2.17/index.html)
 * Gson [Gson Javadocs](https://www.javadoc.io/doc/com.google.code.gson/gson/2.8.5/overview-summary.html)
 * Custom serializer/deserializers
 	  
-### View Model components
+#### View Model components
 
 * Android Lifecycle framework (ViewModel & LiveData)
 * Custom view model classes
 
-### View
+#### View
 
 * Custom RecyclerView.Adapter and RecyclerView.Holder classes
 * Custom layouts
 	  
-### Controller
+#### Controller
 
 * Custom activity and fragment classes
 	  
-### Authentication
+#### Authentication
 
 * Google Sign In (external service; see https://developers.google.com/identity)
 * Custom sign in service class

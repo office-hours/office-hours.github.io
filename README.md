@@ -63,7 +63,7 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
 
 * Use the IntelliJ Check out from Version Control/Git (from the welcome screen) or File/New/Project from Version Control/Git (from the workspace) command to clone.
 
-* DO NOT click open when prompted to do so (it might even as twice).
+* DO NOT click open when prompted to do so (it might even ask twice).
 
 * Import the project you just cloned. In the Import Project window, select Import project from external model and then the Gradle item in the list.
 
@@ -82,6 +82,10 @@ There are two different side the UI in Office Hours. One is from the perspective
 ### [Entity-relationship diagram](erd.md)
 
 ### [Data Definition Language](ddl.md)
+
+## Technical Documentation
+
+### [Technical stacks outline](technical-stacks-outline.md)
 
 ## External services/data
 

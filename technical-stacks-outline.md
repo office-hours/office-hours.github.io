@@ -1,36 +1,36 @@
 # Back end
 
-### Ubuntu Linux OS [Ubuntu Server Docs](https://ubuntu.com/server/docs?_ga=2.208630098.1134918235.1585844330-683245728.1585844330)
+#### Ubuntu Linux OS [Ubuntu Server Docs](https://ubuntu.com/server/docs?_ga=2.208630098.1134918235.1585844330-683245728.1585844330)
 
-### Apache HTTP server configured as reverse proxy [Apache HTTP Server Project](https://httpd.apache.org/docs/2.4/developer/API.html)
+#### Apache HTTP server configured as reverse proxy [Apache HTTP Server Project](https://httpd.apache.org/docs/2.4/developer/API.html)
 
-### JRE 8 [Java 8th Edition](https://docs.oracle.com/javase/8/docs/api/)
+#### JRE 8 [Java 8th Edition](https://docs.oracle.com/javase/8/docs/api/)
 
-### Apache Tomcat Java application server [Apache Tomcat API](https://tomcat.apache.org/tomcat-7.0-doc/api/index.html)
+#### Apache Tomcat Java application server [Apache Tomcat API](https://tomcat.apache.org/tomcat-7.0-doc/api/index.html)
 
-### Web service application, incorporating:
+#### Web service application, incorporating:
 
-	#### Data
-		* Embedded Apache Derby database [Apache Derby API Docs](https://db.apache.org/derby/docs/10.14/publishedapi/index.html)
-		* Hibernate ORM [Hibernate Javadocs](https://docs.jboss.org/hibernate/orm/5.2/javadocs/)
-		* Custom entity classes
-		* Spring Boot Data [Spring Boot Docs](https://docs.spring.io/spring-boot/docs/current/reference/)
-		* Custom data repository interfaces
+##### Data
+* Embedded Apache Derby database [Apache Derby API Docs](https://db.apache.org/derby/docs/10.14/publishedapi/index.html)
+* Hibernate ORM [Hibernate Javadocs](https://docs.jboss.org/hibernate/orm/5.2/javadocs/)
+* Custom entity classes
+* Spring Boot Data [Spring Boot Docs](https://docs.spring.io/spring-boot/docs/current/reference/)
+* Custom data repository interfaces
 		  
-	#### Service controllers
+##### Service controllers
 	  
-         * Spring MVC [Spring MVC Docs](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)          
-		 * Custom controller classes
-         * Custom Service classes
+* Spring MVC [Spring MVC Docs](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)          
+* Custom controller classes
+* Custom Service classes
 		  
-    #### View composition & serialization
+##### View composition & serialization
 	  
-         * Jackson JSON [Jackson Project Docs](https://github.com/FasterXML/jackson)
-         * Custom view classes & interfaces
+* Jackson JSON [Jackson Project Docs](https://github.com/FasterXML/jackson)
+* Custom view classes & interfaces
 		  
-    #### Authentication
+##### Authentication
 	  
-        * Google Sign In (external service; see https://developers.google.com/identity)
+* Google Sign In (external service; see https://developers.google.com/identity)
 
 # Front end
 

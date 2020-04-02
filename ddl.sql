@@ -1,52 +1,45 @@
--- noinspection SqlNoDataSourceInspectionForFile
+create table appointment (
 
-create table appointment
-(
-    appointment_id CHAR(16) FOR BIT DATA not null,
-    created        timestamp             not null,
-    end_time       timestamp             not null,
-    start_time     timestamp             not null,
-    status         integer               not null,
-    subject        integer,
-    updated        timestamp             not null,
-    student_id     CHAR(16) FOR BIT DATA,
-    teacher_id     CHAR(16) FOR BIT DATA,
-    primary key (appointment_id)
-);
-create table base_user
-(
-    user_id  CHAR(16) FOR BIT DATA not null,
-    created  timestamp             not null,
-    email    varchar(255)          not null,
-    nickname varchar(255),
-    oauth    varchar(4696)         not null,
-    primary key (user_id)
-);
-create table policy
-(
-    policy_id       CHAR(16) FOR BIT DATA not null,
-    block_time      time                  not null,
-    created         timestamp             not null,
-    end_available   timestamp             not null,
-    start_available timestamp             not null,
-    updated         timestamp             not null,
-    teacher_id      CHAR(16) FOR BIT DATA,
-    primary key (policy_id)
-);
-create table student
-(
-    student_id   CHAR(16) FOR BIT DATA not null,
-    student_name varchar(255),
-    user_id      CHAR(16) FOR BIT DATA,
-    primary key (student_id)
-);
-create table teacher
-(
-    teacher_id   CHAR(16) FOR BIT DATA not null,
-    teacher_name varchar(255),
-    user_id      CHAR(16) FOR BIT DATA,
-    primary key (teacher_id)
-);
+appointment_id CHAR(16) FOR BIT DATA not null,
+ created       timestamp             not null,
+ end_time      timestamp             not null,
+ start_time    timestamp             not null,
+ status        integer               not null,
+ subject       integer,
+ updated       timestamp             not null,
+ student_id    CHAR(16) FOR BIT DATA,
+ teacher_id    CHAR(16) FOR BIT DATA,
+ primary key (appointment_id));
+
+create table base_user (
+user_id     CHAR(16) FOR BIT DATA not null,
+created     timestamp             not null,
+email       varchar(255)          not null,
+nickname    varchar(255),
+oauth       varchar(4696)         not null,
+primary key (user_id));
+
+create table policy (
+policy_id       CHAR(16) FOR BIT DATA not null,
+block_time      integer               not null,
+created         timestamp             not null,
+end_available   timestamp             not null,
+start_available timestamp             not null,
+updated         timestamp             not null,
+teacher_id      CHAR(16) FOR BIT DATA,
+primary key (policy_id));
+
+create table student (
+student_id      CHAR(16) FOR BIT DATA not null,
+student_name    varchar(255),
+user_id         CHAR(16) FOR BIT DATA,
+primary key (student_id));
+
+create table teacher (
+teacher_id      CHAR(16) FOR BIT DATA not null,
+teacher_name    varchar(255),
+user_id         CHAR(16) FOR BIT DATA,
+primary key (teacher_id));
 create index IDXkqavgwjmxr5e34lbeg5rtte9e on appointment (status);
 create index IDXko8qd6n0wt9wgq61vd2w8r3wb on appointment (start_time);
 create index IDXllisg0htxs55iy7cs99j3dct5 on appointment (end_time);

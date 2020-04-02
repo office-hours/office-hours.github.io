@@ -18,11 +18,30 @@
 
 ---
 
-## Description
+## Introduction & description
 
 This is a scheduling system for instructors and students, intended to support scheduling of instructor-student consult/counseling sessions.
-The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block,
- limit the number of blocks that may be reserved by a single student, etc.
+The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block, limit the number of blocks that may be reserved by a single student, etc.
+
+A teacher using Office Hours can make an policy where they can specify the amount of time that they are available and the length of appointments within that given time. Students are then able to view a specific teacher and see all of their available appointments in a calendar and then, if available, select and appointment and reserve it.
+
+The motivations behind this project was to make an app that would make office hours easier for both students and teachers. These appointments could be scheduled ahead of time so a student can make sure that they get the time that they need. On the other hand this will make the process of office hours more seamless and they only need to make one policy for an entire class, and not be in contact with every student to set up appointments.
+
+## Current state
+
+While very close, Office Hours is not yet ready for deployment or testing. At the current state the app has a login using Google authentication and also has singing out functionality. The landing page is a calendar with a search bar above it. It allows for a use to select a teacher using the search bar, then display and decorate days that the teacher has appointments available.
+
+* Deficiencies at this point include:
+
+    * Not being able to view appointment for a days
+    * Reserving an appointment
+    * A Teacher is not able to create or delete an appointment
+* Aesthetic improvements
+
+    * Adding multiple colors to decorate different availabilities of appointments
+    * Adding more color schemes to the project
+
+*
 
 ## Intended users
 

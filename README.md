@@ -23,8 +23,6 @@
 This is a scheduling system for instructors and students, intended to support scheduling of instructor-student consult/counseling sessions.
 The requirements for this type of scheduling tend to go beyond those for basic shared calendar scheduling, since policies may restrict the length of a single block, limit the number of blocks that may be reserved by a single student, etc.
 
-A teacher using Office Hours can make an policy where they can specify the amount of time that they are available and the length of appointments within that given time. Students are then able to view a specific teacher and see all of their available appointments in a calendar and then, if available, select and appointment and reserve it.
-
 The motivations behind this project was to make an app that would make office hours easier for both students and teachers. These appointments could be scheduled ahead of time so a student can make sure that they get the time that they need. On the other hand this will make the process of office hours more seamless and they only need to make one policy for an entire class, and not be in contact with every student to set up appointments.
 
 ## Current state
@@ -41,7 +39,11 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
     * Adding multiple colors to decorate different availabilities of appointments
     * Adding more color schemes to the project
 
-*
+* Stretch goals
+
+    * Adding the ability to upload appointments to Google calendar.
+    * Adding reminder capabilities
+    * Giving students the option to request an appointment
 
 ## Intended users
 
@@ -51,6 +53,28 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
 
 ### [User stories](user-stories.md)
 
+## Build instructions
+
+* Go to the [GitHub repository](https://github.com/the-trail-blazer/trailblazer-client)
+
+* Click on Clone or download
+
+* Make sure Clone with SSH is selected and click the clipboard icon to copy the SSH key
+
+* Use the IntelliJ Check out from Version Control/Git (from the welcome screen) or File/New/Project from Version Control/Git (from the workspace) command to clone.
+
+* DO NOT click open when prompted to do so (it might even as twice).
+
+* Import the project you just cloned. In the Import Project window, select Import project from external model and then the Gradle item in the list.
+
+* After the project is imported add a run configuration. This should use the Android App configuration, with a Name of "app", and with app selected from the Module pull-down control.
+
+* Click the run icon and select the device you wish to run it on.
+
+## Basic user instructions
+
+There are two different side the UI in Office Hours. One is from the perspective of the teacher and one from the perspective of a student. A teacher has all of the user capabilities and the ability to create appointments. A teacher using Office Hours can make an policy where they can specify the amount of time that they are available and the length of appointments within that given time. Students are then able to view a specific teacher and see all of their available appointments in a calendar and then, if available, select and appointment and reserve it.
+
 ## Design documentation
 
 ### [Wireframe diagram](wireframe.md)
@@ -58,11 +82,6 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
 ### [Entity-relationship diagram](erd.md)
 
 ### [Data Definition Language](ddl.md)
-
-
-## Technical Documentation
-
-### [Technical stacks outline](technical-stacks-outline.md)
 
 ## External services/data
 
@@ -78,9 +97,6 @@ While very close, Office Hours is not yet ready for deployment or testing. At th
     * Service use: This will allow users to take appointment made in Office Hours and export them into Google calendar for convenience.
     * Required: No, users don't have to use google export to use Office Hours.
 
-### [Ground rules documentation](ground-rules.md)
+# [Ground rules documentation](ground-rules.md)
 
-### [Data Model Implementation](data-model.md)
-
-
-
+# [Data Model Implementation](data-model.md)
